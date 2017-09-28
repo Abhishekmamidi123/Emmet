@@ -1,0 +1,164 @@
+<!-- ! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<!-- //////////////////////////////////////////////// -->
+  <!-- nav>ul>li -->
+  <nav>
+    <ul>
+      <li></li>
+    </ul>
+  </nav>
+  <!-- div+p+bq -->
+  <div></div>
+  <p></p>
+  <blockquote></blockquote>
+  <!-- div+div>p>span>em^bq -->
+  <div></div>
+  <div>
+    <p>
+      <span><em></em></span>
+      <blockquote></blockquote>
+    </p>
+  </div>
+
+<!-- /////////////////////////////////////////////////////// -->
+
+  <!-- div#header -->
+  <div id="header"></div>
+  <!-- .title -->
+  <div class="title"></div>
+  <!-- form#search.width -->
+  <form action="" id="search" class="width"></form>
+  <!-- p.class1.class2.class3 -->
+  <p class="class1 class2 class3"></p>
+
+<!-- ////////////////////////////////////////////////////////////// -->
+
+  <!-- ul>li*5 -->
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- ul>li.item$*5 -->
+  <ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+  </ul>
+  <!-- h$[title=item$]{This is a Header $}*4 -->
+  <h1 title="item1">This is a Header 1</h1>
+  <h2 title="item2">This is a Header 2</h2>
+  <h3 title="item3">This is a Header 3</h3>
+  <h4 title="item4">This is a Header 4</h4>
+  <!-- ul>li.item$$*5 -->
+  <ul>
+    <li class="item01"></li>
+    <li class="item02"></li>
+    <li class="item03"></li>
+    <li class="item04"></li>
+    <li class="item05"></li>
+  </ul>
+  <!-- ul>li.item$@-*6 -->
+  <ul>
+    <li class="item6"></li>
+    <li class="item5"></li>
+    <li class="item4"></li>
+    <li class="item3"></li>
+    <li class="item2"></li>
+    <li class="item1"></li>
+  </ul>
+
+<!-- //////////////////////////////////////////////////////////////////// -->
+<!-- Custom Attributes -->
+
+  <!-- p[title="Hello World"] -->
+  <p title="Hello World"></p>
+  <!-- td[rowspan="2" colspan="3" title="Hello"] -->
+  <td rowspan="2" colspan="3" title="Hello"></td>
+  <!-- [a="value1" b="value2"] -->
+  <div a="value1" b="value2"></div>
+  <!-- a{Click me} -->
+  <a href="">Click me</a>
+  <!-- p>{Click me}+a{something}+{...} -->
+  <p>Click me<a href="http://stackoverflow.com">something</a>...</p>
+
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+
+  <!-- lorem -->
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eveniet provident cupiditate vitae dolore veniam minima magni. Saepe, debitis quas cum dolores quod. Facilis repellendus doloribus reprehenderit culpa natus optio.
+  <!-- lorem5 -->
+  Lorem ipsum dolor sit amet.
+  <!-- p*5>lorem5 -->
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p>Quia possimus, illo omnis vitae!</p>
+  <p>Vel, excepturi dolore temporibus error.</p>
+  <p>Atque aliquam laudantium nemo, eos.</p>
+  <p>Voluptas ratione, consequatur cumque praesentium.</p>
+  <!-- ul.generic-list>lorem10.item*5 -->
+  <ul class="generic-list">
+    <li class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, non.</li>
+    <li class="item">Ullam laborum, voluptas fugiat voluptatem quam porro vitae id iusto!</li>
+    <li class="item">Nobis quasi consequuntur culpa natus sed praesentium totam consectetur laboriosam.</li>
+    <li class="item">Possimus, labore, explicabo saepe id optio omnis numquam delectus beatae.</li>
+    <li class="item">Atque mollitia accusamus, ratione possimus sequi ut laboriosam, culpa. Perspiciatis!</li>
+  </ul>
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+  <!-- emphasis tag cannot have classes and id's. So we use span tag to change the content in the emphasis tag. -->
+  <!-- Emmet is really a smart guy -->
+
+  <!-- em>.new  Emmet is smart to produce span tag -->
+  <em><span class="new"></span></em>
+  <!-- ul>.new*1 -->
+  <ul>
+    <li class="new"></li>
+  </ul>
+  <!-- table>.row>.column -->
+  <table>
+    <tr class="row">
+      <td class="column"></td>
+    </tr>
+  </table>
+  <!-- div>(header>ul>li*3>a)+footer>h1 -->
+  <div>
+    <header>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </header>
+    <footer>
+      <h1></h1>
+    </footer>
+  </div>
+  <!-- div>(nav.nav-class>ul>li*5)+(p>h1) -->
+  <div>
+    <nav class="nav-class">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <p>
+      <h1></h1>
+    </p>
+  </div>
+  <!-- //////////////////////////////////////////////////////////////////// -->
+
+</body>
+</html>
