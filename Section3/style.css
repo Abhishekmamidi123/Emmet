@@ -1,0 +1,168 @@
+/*pos*/
+position: relative;
+/*pos:s*/
+position: static;
+/*pos:a*/
+position: absolute;
+
+/*t*/
+top: ;
+/*cl*/
+clear: both;
+/*d:i*/
+display: inline;
+/*d:if*/
+display: -webkit-inline-flex;
+display: -ms-inline-flex;
+display: inline-flex;
+
+/*v*/
+visibility: hidden;
+/*v:hidden*/
+visibility: hidden;
+/*rsz*/
+resize: ;
+
+/*cp:r*/
+clip: rect(top right bottom left);
+
+/*cur:ha*/
+cursor: hand;
+cursor: help;
+cursor: text;
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*Margins and padding*/
+
+/*m*/
+margin: ;
+/*m:a*/
+margin: auto;
+/*mt*/
+margin-top: ;
+/*mr*/
+margin-right: ;
+/*mb ml*/
+/*p*/
+padding: ;
+/*pl*/
+padding-left: ;
+
+/*bg*/
+background: #000;
+/*bg+*/
+background: #fff url() 0 0 no-repeat;
+/*bgc*/
+background-color: #fff;
+/*bgc:t*/
+background-color: transparent;
+/*bgr*/
+background-repeat: ;
+/*bgr:r*/
+background-repeat: round;
+/*bgp*/
+background-position: 0 0;
+/*c*/
+color: #000;
+/*c:r*/
+color: rgb(0, 0, 0);
+/*cra*/
+color: rgba(0, 0, 0, .5);
+/*op*/
+opacity: ;
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*Box-sizing and fonts*/
+/*bxz*/
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+/*bxz:bb*/
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+/*bxz:cb*/
+-webkit-box-sizing: content-box;
+box-sizing: content-box;
+
+/*maw*/
+max-width: ;
+/*f*/
+font: ;
+/*f+*/
+font: 1em Arial,sans-serif;
+/*fw*/
+font-weight: ;
+/*fs*/
+font-style: italic;
+/*fz*/
+font-size: ;
+/*ff*/
+font-family: ;
+/*ff:m*/
+font-family: monospace;
+/*fem*/
+font-emphasize: ;
+/*fems:c*/
+font-emphasize-style: circle;
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*Outlining*/
+/*ol*/
+outline: ;
+/*olw:tn*/
+outline-width: thin;
+/*ols:i*/
+outline-style: inset;
+/*olc*/
+outline-color: #000;
+/*olc:i*/
+outline-color: invert;
+/*tbl*/
+table-layout: ;
+/*tbl:a*/
+table-layout: auto;
+/*tbl:f*/
+table-layout: fixed;
+
+
+/*@f*/
+@font-face {
+  font-family:;
+  src:url();
+}
+/*@f+*/
+@font-face {
+  font-family: 'FontName';
+  src: url('FileName.eot');
+  src: url('FileName.eot?#iefix') format('embedded-opentype'),
+     url('FileName.woff') format('woff'),
+     url('FileName.ttf') format('truetype'),
+     url('FileName.svg#FontName') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+/*@kf*/
+@-webkit-keyframes identifier {
+  from {  }
+  to {  }
+}
+@-o-keyframes identifier {
+  from {  }
+  to {  }
+}
+@-moz-keyframes identifier {
+  from {  }
+  to {  }
+}
+@keyframes identifier {
+  from {  }
+  to {  }
+}
+
+/*ac*/
+align-content: ;
+/*ai*/
+-ms-align-items: ;
+align-items: ;
